@@ -1,5 +1,10 @@
 module V1
   class SitesController < ApplicationController
+    def index
+      sites = Site.all
+      render json: sites, status: 200
+    end
+
     def create
       site = Site.new(site_params)
       if site.save
