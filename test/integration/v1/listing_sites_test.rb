@@ -3,7 +3,7 @@ require 'test_helper'
 module V1
   class ListingSitesTest < ActionDispatch::IntegrationTest
     setup do
-      @site = Site.create(url: 'http://localhost:3000/sample')
+      @site = Site.create!(url: 'http://localhost:3000/sample')
     end
 
     test "resturns a list of indexed sites" do

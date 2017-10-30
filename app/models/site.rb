@@ -1,10 +1,15 @@
 class Site < ApplicationRecord
-  before_save :set_content
-
+  validate :check_url
 
   private
 
-  def set_content
-    self.content = SiteParser.new(url).exec
+  def check_url
+    sp = SiteParser.new(url)
+    self.content = if result = sp.exec
+                     result
+                   else
+                     errors.add(:url, sp.errors.full_messages)
+                     false
+                   end
   end
 end
