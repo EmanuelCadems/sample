@@ -1,8 +1,8 @@
 module V1
   class SitesController < ApplicationController
     def index
-
-      sites = Site.paginate(:page => params[:page], :per_page => params[:per_page])
+      sites = Site.select(:id, :url, :content, :created_at).
+                paginate(page: params[:page], per_page: params[:per_page])
       render json: sites, status: 200
     end
 

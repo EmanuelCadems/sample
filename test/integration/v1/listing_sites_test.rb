@@ -11,7 +11,7 @@ module V1
 
       assert_equal 200, response.status
       assert_equal Mime::Type.lookup('application/json'), response.content_type
-      assert_equal Site.all.to_json, response.body
+      assert_equal Site.select(:id, :url, :content, :created_at).to_json, response.body
     end
 
     test "returns the second page with 2 sites per page" do
