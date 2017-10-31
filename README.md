@@ -2,62 +2,77 @@
 
 This project cover:
 
-  1. Ruby on Rails
-  2. PostgreSQL
-  3. Software design
-  4. API Design and REST
-  5. Testing with Minitest
-  6. Code performance and scalability
-  7. AWS deployment
+  * Ruby on Rails
+  * PostgreSQL
+  * Software design
+  * API Design and REST
+  * Testing with Minitest
+  * Code performance and scalability
+  * AWS deployment
 
-Getting Started:
+# Getting Started
 
-* Ruby version
+1. Ruby version
 
-  ruby-2.4.2
+    ruby-2.4.2
 
-  If you are using rvm run inside folder's project:
-  ```bash
-    cd .
-  ```
-  in order to create gemset sample and select the proper ruby version
+    If you are using rvm run inside folder's project:
+    ```bash
+      cd .
+    ```
+    in order to create gemset sample and select the proper ruby version
 
-* System dependencies
+2. System dependencies
 
     PostgreSQL 9.3
 
-* Configuration
+3. Configuration
 
-  ```bash
-    bundle install
-  ```
+    Install bundler with:
 
-* Database creation
 
-  ```bash
-    rake db:create
-  ```
-* Database initialization
+    ```bash
+      gem install bundler -v='1.15.4' --no-rdoc --no-ri
+    ```
 
-  ```bash
-    rake db:migrate
-  ```
-* How to run the test suite
+    Then install all dependencies with
 
-  This project use minitest. You can run the tests with:
-  ```bash
-    rake
-  ```
-* Check code
+    ```bash
+      bundle install
+    ```
 
-  This project check the quality of the code using rubucop, rails_best_practices,
-  flay, brakeman, and Minitest.
+4. Database creation
 
-  You can run all this tools with the following task:
+    ```bash
+      rake db:create
+    ```
+5. Database initialization
 
-  ```bash
-    rake code:check
-  ```
-* Deployment instructions
+    ```bash
+      rake db:migrate
+    ```
+6. How to run the test suite
+
+    This project use minitest. You can run the tests with:
+    ```bash
+      rake
+    ```
+
+    You can see the coverage with:
+    ```bash
+      open coverage/index.html
+    ```
+
+7. Check code
+
+    This project check the quality of the code using rubucop, rails_best_practices,
+    flay, brakeman, and Minitest.
+
+    You can run all this tools with the following task:
+
+    ```bash
+      rake code:check
+    ```
+8. Deployment instructions
 
 * ...

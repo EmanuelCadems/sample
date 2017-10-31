@@ -5,5 +5,6 @@ namespace :code do
     system 'rubocop'
     system 'rails_best_practices .'
     system 'brakeman'
+    system 'open coverage/index.html'
   end
 end
