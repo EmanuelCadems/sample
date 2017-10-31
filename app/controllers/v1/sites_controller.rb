@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 module V1
   class SitesController < ApplicationController
     def index
-      sites = Site.select(:id, :url, :content, :created_at).
-                paginate(page: params[:page], per_page: params[:per_page])
+      sites = Site.select(:id, :url, :content, :created_at)
+                  .paginate(page: params[:page], per_page: params[:per_page])
       render json: sites, status: 200
     end
 
@@ -14,7 +16,6 @@ module V1
         render json: { errors: site.errors.full_messages }, status: 422
       end
     end
-
 
     private
 

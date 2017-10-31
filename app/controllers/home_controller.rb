@@ -1,5 +1,5 @@
-class HomeController <  ActionController::Base
-  def sample
+# frozen_string_literal: true
 
-  end
+class HomeController < ActionController::Base
+  def sample; end
 end
