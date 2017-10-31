@@ -37,9 +37,12 @@ group :development, :test do
 end
 
 group :development do
+  gem 'brakeman', '4.0.1', require: false
   gem 'listen', '>= 3.0.5', '< 3.2'
   # Spring speeds up development by keeping your application running in the
   # background. Read more: https://github.com/rails/spring
+  gem 'rails_best_practices', '1.19.0'
+  gem 'rubocop', '0.51.0', require: false
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
@@ -48,6 +51,4 @@ end
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 gem 'nokogiri', '1.8.1'
-gem 'rails_best_practices', '1.19.0'
-gem 'rubocop', require: false
 gem 'will_paginate', '3.1.6'
