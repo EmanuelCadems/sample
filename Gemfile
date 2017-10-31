@@ -48,5 +48,6 @@ end
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 gem 'nokogiri', '1.8.1'
+gem 'rails_best_practices', '1.19.0'
 gem 'rubocop', require: false
 gem 'will_paginate', '3.1.6'

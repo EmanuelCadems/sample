@@ -2,6 +2,8 @@
 
 module V1
   class SitesController < ApplicationController
+    def show; end
+
     def index
       sites = Site.select(:id, :url, :content, :created_at)
                   .paginate(page: params[:page], per_page: params[:per_page])
