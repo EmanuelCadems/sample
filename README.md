@@ -1,5 +1,6 @@
 # README
 
+[![GitHub version](https://badge.fury.io/gh/EmanuelCadems%2Fsample.svg)](https://badge.fury.io/gh/EmanuelCadems%2Fsample)
 
 This project cover:
 
