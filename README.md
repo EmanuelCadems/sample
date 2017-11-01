@@ -2,6 +2,7 @@
 
 [![GitHub version](https://badge.fury.io/gh/EmanuelCadems%2Fsample.svg)](https://badge.fury.io/gh/EmanuelCadems%2Fsample)
 [![Build Status](https://travis-ci.org/EmanuelCadems/sample.svg?branch=master)](https://travis-ci.org/EmanuelCadems/sample)
+[![Dependency Status](https://gemnasium.com/badges/github.com/EmanuelCadems/sample.svg)](https://gemnasium.com/github.com/EmanuelCadems/sample)
 [![Coverage Status](https://coveralls.io/repos/github/EmanuelCadems/sample/badge.svg?branch=master)](https://coveralls.io/github/EmanuelCadems/sample?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/276eaac5fad97a79e3e4/maintainability)](https://codeclimate.com/github/EmanuelCadems/sample/maintainability)
 
