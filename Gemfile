@@ -56,4 +56,4 @@ gem 'nokogiri', '1.8.1'
 gem 'simplecov', require: false, group: :test
 gem 'will_paginate', '3.1.6'
 
-gem 'coveralls', '0.7.1', require: false
+gem 'coveralls', '0.8.21', require: false
