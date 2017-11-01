@@ -2,6 +2,8 @@
 
 [![GitHub version](https://badge.fury.io/gh/EmanuelCadems%2Fsample.svg)](https://badge.fury.io/gh/EmanuelCadems%2Fsample)
 
+[![Build Status](https://travis-ci.org/EmanuelCadems/sample.svg?branch=master)](https://travis-ci.org/EmanuelCadems/sample)
+
 This project cover:
 
   * Ruby on Rails
