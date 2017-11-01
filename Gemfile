@@ -55,3 +55,5 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'nokogiri', '1.8.1'
 gem 'simplecov', require: false, group: :test
 gem 'will_paginate', '3.1.6'
+
+gem 'coveralls', '0.7.1', require: false

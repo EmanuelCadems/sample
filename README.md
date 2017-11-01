@@ -1,8 +1,8 @@
 # README
 
 [![GitHub version](https://badge.fury.io/gh/EmanuelCadems%2Fsample.svg)](https://badge.fury.io/gh/EmanuelCadems%2Fsample)
-
 [![Build Status](https://travis-ci.org/EmanuelCadems/sample.svg?branch=master)](https://travis-ci.org/EmanuelCadems/sample)
+[![Coverage Status](https://coveralls.io/repos/github/EmanuelCadems/sample/badge.svg?branch=master)](https://coveralls.io/github/EmanuelCadems/sample?branch=master)
 
 This project cover:
 
