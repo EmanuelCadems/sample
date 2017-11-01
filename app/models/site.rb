@@ -10,8 +10,17 @@ class Site < ApplicationRecord
     self.content = if (result = sp.exec)
                      result
                    else
-                     errors.add(:url, sp.errors.full_messages)
+                     cp_errors(sp.errors)
+
                      false
                    end
+  end
+
+  def cp_errors(source)
+    source.messages.each do |key, value|
+      value.each do |msg|
+        errors.add(key, msg)
+      end
+    end
   end
 end

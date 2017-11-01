@@ -64,5 +64,17 @@ https://github.com/EmanuelCadems\n", site['content']
 
       assert_equal 422, response.status
     end
+
+    test 'does not index a website without a url' do
+      post '/v1/sites',
+           params: {
+             site: {
+               url: ''
+             }
+           }
+
+      assert_equal 422, response.status
+      assert_includes json(response.body)['errors'], 'Url can\'t be blank'
+    end
   end
 end
