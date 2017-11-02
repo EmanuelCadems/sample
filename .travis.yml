@@ -13,3 +13,4 @@ deploy:
   run:
     - 'rake db:create'
     - 'rake db:migrate'
+  skip_cleanup: true
