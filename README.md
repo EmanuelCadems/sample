@@ -92,9 +92,16 @@ This project cover:
     ```
 
 9. Deployment instructions
-* ...
+
+    Travis will deploy the project to heroku
 
 # Usage
+
+Next you will see how to use this API using curl, a ruby client, or HTTP in
+your cloned repository which is up and running in your `http://localhost:3000/`
+Anyway you can also try with the online heroku version remplacing `http://localhost:3000/` by:
+
+- [https://emanuel-alarcon.herokuapp.com/](https://emanuel-alarcon.herokuapp.com/)
 
 ## curl
 
