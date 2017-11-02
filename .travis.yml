@@ -11,6 +11,4 @@ deploy:
   api_key:
     secure: UKC4Y9br0Nnby6KXUR6jetCHG94pYR25+z/jemlloOHYgcC/ph//DDnI40BtbUyhjrzAQwr0JNNwCrJfA05ApjvqOFzGOP30vd5OT5a174/OkG4/Foo2lGhGGrMw3blKx+WiLlGBr5DZ7YOw0kaN+1lAOM1NySLwaaFQ97jnnY0iZcdMQFNe9nD3mXujWLnBWnjJCI7+K3QD3q/cHkvqkNGQtCgRhD1xg4PZvDcn1VgQXWlBqvHklFP8MICnd03uSqbH0R5qmaWXCcw64gzulcy8/U9v6Ssc6twRqgS632x8UR8aN78Z8g96Vvds1P0yHaB/jpY0/Kz+G8GGYgfp3UKbIpniQU8NrRURegqrdqKsDNqBQq06MP7+PqzQMBIgmIucm/eE73VtUzddij+5qINO8lQirMG9xLbfIea6tGyzfCobud6tfRVmRYB7wUPQrngZw8NrC91hVk3/Vl4DeOk51l7okmls4lhDZE1aJwTkx0Mf5V9uSRtdHh/U24XaSD6sk4eT29nq4N1aVOEYHxxzXxPdgFO/DpWazQWJ+6ovy4HS9sZoHtnGLO+2Y34N1NGfRbCypuaTyLJxq7g1x24c+W7YknkIxQtxx5H7fIKi3sVxbmSSrJHFzfRsgQXsZ2MyQBFO5TmQ6fa4Cxl2AcxT/XPsXujRR3XwbR0r8Ow=
   run:
-    - 'rake db:create'
     - 'rake db:migrate'
-  skip_cleanup: true
